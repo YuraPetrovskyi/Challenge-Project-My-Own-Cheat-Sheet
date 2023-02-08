@@ -1,0 +1,80 @@
+/* amarante-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Amarante';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/amarante-v22-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('./fonts/amarante-v22-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/amarante-v22-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/amarante-v22-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/amarante-v22-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./fonts/amarante-v22-latin-regular.svg#Amarante') format('svg'); /* Legacy iOS */
+  }
+
+body {
+    font-family: 'Amarante', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    background-color: gray;
+    text-align: center;
+    
+  }
+
+header {
+    margin: 0 auto;
+}
+
+table {
+    border: 1px solid black;
+    
+    margin: 0 auto;
+ }
+
+thead {
+    background-color: purple;
+ }
+
+th, td { 
+    border: 1px solid black;
+    padding: 10px;
+}
+
+nav {
+    text-align: left;
+    margin: 0 35%;
+}
+
+.description {
+    text-align: left;   
+}
+
+.tagname {
+    color: green;
+}
+
+.attributename {
+    color: brown;
+}
+
+#exemple-tag {
+    text-align: left;
+    display: inline-block;
+    margin:  0 40px;
+   
+}
+
+#exemple-table {
+    text-align: left;
+    display: inline-block;
+    position: relative;
+    bottom: 50px;
+    margin:  0 5px; 
+    
+}
+
+#exemple-conteiner {
+    text-align: center;       
+}
+
+span {
+    color: brown;
+}
